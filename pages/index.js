@@ -1,13 +1,11 @@
 import Head from "next/head";
-import Footer from "../comoponents/Footer";
-import Navbar from "../comoponents/Navbar";
+
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Navbar />
       <h1>Homepage</h1>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt
@@ -38,7 +36,6 @@ export default function Home() {
       <Link href="/ninjas">
         <a> See Ninja Listing</a>
       </Link>
-      <Footer />
     </div>
   );
 }
